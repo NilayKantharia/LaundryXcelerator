@@ -193,4 +193,9 @@ img.overlay{
   
 }
 
+@media screen and (max-width:844px){
+  img.overlay{
+    opacity: 0;
+  }
+}
 

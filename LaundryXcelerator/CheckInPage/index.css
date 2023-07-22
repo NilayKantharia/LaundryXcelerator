@@ -145,15 +145,40 @@
   left: 247px;
 }
 .iphone-14-pro-3 {
-  position: relative;
-  border-radius: var(--br-mini);
+
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%) ;
+  border-radius: 40px;
   background-color: #fff;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  width: 100%;
+  width: 393px;
   height: 852px;
-  overflow: hidden;
+
+
   text-align: left;
   font-size: var(--font-size-mini);
   color: var(--color-black);
-  font-family: var(--font-inter);
+  font-family: var(--font-lexend-deca);
+}
+
+.overlay{
+  position:absolute;
+  top: 58.2%;
+  left: 58.8%;
+  transform: translate(-50%,-50%) ;
+  z-index: 4;
+  overflow: hidden;
+  width: 393px;
+  height: 852px;
+}
+img.overlay{
+  scale: 119%;
+  
+}
+
+@media screen and (max-width:844px){
+  img.overlay{
+    opacity: 0;
+  }
 }
