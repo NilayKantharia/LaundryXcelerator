@@ -1,2 +1,0 @@
-# LaundryXcelerator
-Revolutionizing Laundry Management.
