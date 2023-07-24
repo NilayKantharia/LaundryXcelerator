@@ -247,5 +247,12 @@ a:visited{
   img.overlay{
     opacity: 0;
   }
+  body{
+    height: 100vh;
+  }
 }
-  
+@media screen and (min-width:844px){
+  body{
+    height: 80vh;
+  }
+}

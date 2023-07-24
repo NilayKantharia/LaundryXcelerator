@@ -167,5 +167,13 @@ img.overlay{
   img.overlay{
     opacity: 0;
   }
+  body{
+    height: 100%;
+  }
+}
+@media screen and (min-width:844px){
+  body{
+    height: 80vh;
+  }
 }
   
